@@ -1,0 +1,11 @@
+{
+    "name":"Erick",
+    "version":"1.0",
+    "description":"transforma um texto para caixa alta",
+    "browser_action":{
+        "default_popup":"index.html"
+    },
+
+    "manifest_version":2
+
+}

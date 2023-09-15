@@ -1,0 +1,17 @@
+{
+    "name": "Borda no Github",
+    "description": "Adiciona uma borda azul no meu github",
+
+    "manifest_version": 2,
+    "version": "1.0",
+    
+    "icons": {
+        "64": "icons/erick.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.github.com/erickhbs*"],
+            "js": ["app.js"]
+        }
+    ]
+}
